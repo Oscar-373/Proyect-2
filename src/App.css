@@ -1,38 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-image: url(https://misistemasolar.com/wp-content/uploads/2018/10/cumulus_tipos-de-nubes.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.location{
+  width: 70vh;
+  height: 60vh;
+  margin: 150px;
+  padding: 60px;
+  border: solid 1px rgb(134, 31, 31);
+  border-radius: 15px;
+  background-color: rgb(98, 114, 130)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info{
+  display: flex;
+}
+
+.info>img{
+  width: 25vh;
+}
+
+.info-2{
+  margin-top: 7vh;
+}
+button{
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px blue;
+  color: blue;
+  background-color: rgb(8, 233, 94);
+}
+
+h1{
+  color: rgba(0, 119, 255, 0.849);
+}
+
+.location>h3{
+  color: rgba(203, 0, 253, 0.76);
 }
